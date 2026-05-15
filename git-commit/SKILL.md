@@ -1,5 +1,5 @@
 ---
-name: git-commit-message
+name: git-commit
 description: Recommend accurate Conventional Commit messages by analyzing git diff, staged changes, and repository modifications.
 ---
 
