@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:20128/v1",
+    "ANTHROPIC_AUTH_TOKEN": "sk-xxxx",
+    
+
+    "ANTHROPIC_CUSTOM_MODEL_OPTION": "my-gateway/claude-opus-4-7",
+    "ANTHROPIC_CUSTOM_MODEL_OPTION_NAME": "Opus via Gateway",
+    "ANTHROPIC_CUSTOM_MODEL_OPTION_DESCRIPTION": "Custom deployment routed through the internal LLM gateway",
+
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_DESCRIPTION": "",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_SUPPORTED_CAPABILITIES": "",
+    
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "",
+    "ANTHROPIC_DEFAULT_SONNET_NAME": "",
+    "ANTHROPIC_DEFAULT_SONNET_DESCRIPTION": "",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_SUPPORTED_CAPABILITIES": "",
+
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME": "",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_DESCRIPTION": "",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_SUPPORTED_CAPABILITIES": ""
+
+
+    "CLAUDE_CODE_SUBAGENT_MODEL": "claude/opus4-6",
+    "CLAUDE_CODE_EFFORT_LEVEL": "auto", // low, medium, high, xhigh, max, or auto to use the model default
+    "CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY": "1",
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
+    "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1"
+  },
+  "companyAnnouncements": [],
+  "theme": "auto",
+  "effortLevel": "medium"
+}
